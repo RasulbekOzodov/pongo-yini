@@ -133,7 +133,7 @@ function updateBall() {
   // Check for game over
   if (player1Score >= winningScore || player2Score >= winningScore) {
     const winner = player1Score >= winningScore ? player1Name : player2Name;
-    alert(`${winner} wins!`);
+    alert(`${winner} yutdi!`);
     // Reset scores and restart the game
     player1Score = 0;
     player2Score = 0;
